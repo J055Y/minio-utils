@@ -1,5 +1,6 @@
 # Node.js
 node_modules/
+dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -8,9 +9,10 @@ yarn-error.log*
 .idea/
 
 # Environment variables
-.env
+minio.env
 .env.local
 .env.*.local
+*.env
 
 # Logs
 logs/
