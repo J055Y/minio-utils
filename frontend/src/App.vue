@@ -1,11 +1,13 @@
 <script setup lang="ts">
 
 import DirectoryUpload from "./components/DirectoryUpload.vue";
+import MinioTest from "./components/MinioTest.vue";
 </script>
 
 <template>
   <div class="container">
     <h1>Minio Upload Utility</h1>
+    <MinioTest/>
     <DirectoryUpload/>
   </div>
 </template>
